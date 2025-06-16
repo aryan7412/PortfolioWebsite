@@ -37,50 +37,50 @@ function About() {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, phraseIndex]);
   return (
-    <div className="min-h-screen w-full text-black">
-    <div className="flex flex-col lg:flex-row items-center justify-center px-6 py-16 gap-16 max-w-6xl mx-auto">
+    <div id="about" className="min-h-screen w-full text-black">
+    <div className="flex flex-col lg:flex-row items-center justify-center px-4 sm:px-6 py-8 sm:py-16 gap-8 sm:gap-16 max-w-6xl mx-auto">
       {/* Image */}
-      <div className="w-96 h-[35rem]">
+      <div className="w-full sm:w-80 md:w-96 h-[25rem] sm:h-[35rem]">
         <img
           src="/Imageee1.png"
           alt="Profile"
-          className="w-full h-full" 
+          className="w-full h-full object-cover rounded-lg" 
         />
       </div>
 
       {/* About Section */}
-      <div className="flex flex-col text-left max-w-2xl">
-        <h1 className="text-3xl font-bold mb-2">HELLO!!</h1>
-        <h2 className="text-2xl font-semibold  mb-6">
+      <div className="flex flex-col text-left max-w-2xl px-4 sm:px-0">
+        <h1 className="text-2xl sm:text-3xl font-bold mb-2">HELLO!!</h1>
+        <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">
           I am <span className="typing">{text}</span>
         </h2>
 
-        <p className="text-gray-700 mb-4 leading-relaxed text-[1.1rem]">
-          I’m a passionate{" "}
+        <p className="text-gray-700 mb-4 leading-relaxed text-base sm:text-[1.1rem]">
+          I'm a passionate{" "}
           <span className="font-semibold text-black">
             MERN stack web developer
           </span>{" "}
           who loves bringing ideas to life through clean code, intuitive
-          design, and dynamic user experiences. Whether it’s building
+          design, and dynamic user experiences. Whether it's building
           full-stack applications or crafting slick frontends, I thrive in
           that sweet spot where creativity meets logic.
         </p>
 
-        <p className="text-gray-700 mb-4 leading-relaxed text-[1.1rem]">
-          Outside of tech, I’m just as driven — you’ll usually find me playing
+        <p className="text-gray-700 mb-4 leading-relaxed text-base sm:text-[1.1rem]">
+          Outside of tech, I'm just as driven — you'll usually find me playing
           football, solving puzzles and cubes, or deep-diving into geopolitics
           and global trends. I love staying curious about the world and how
           everything connects.
         </p>
 
-        <p className="text-gray-700 mb-4 leading-relaxed text-[1.1rem]">
+        <p className="text-gray-700 mb-4 leading-relaxed text-base sm:text-[1.1rem]">
           I enjoy traveling, discovering new perspectives, and growing through
           real conversations. As an ambivert learning to be more outgoing, I
           like mixing with new people, adapting to different spaces, and
           building meaningful connections wherever I go.
         </p>
 
-        <p className="text-gray-700 leading-relaxed text-[1.1rem]">
+        <p className="text-gray-700 leading-relaxed text-base sm:text-[1.1rem]">
           Strategy is in my DNA — whether on the field, in a project, or just
           life in general, I love thinking ahead and figuring out the best way
           to make things work.

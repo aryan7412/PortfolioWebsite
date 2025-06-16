@@ -38,7 +38,7 @@ function Skills() {
   );
 
   return (
-    <section className="min-h-screen text-black px-6 py-20 ">
+    <section id="skills" className="min-h-screen text-black px-6 py-20 ">
       <div className="max-w-6xl mx-auto text-center w-[60rem]">
         <div className="mb-20">
           <h2 className="text-3xl font-bold tracking-widest text-black">

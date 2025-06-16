@@ -41,7 +41,7 @@ export default function ProjectCards() {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <div className="py-12 px-4 w-[90%] md:w-[80%] mx-auto text-center">
+    <div id="projects" className="py-12 px-4 w-[90%] md:w-[80%] mx-auto text-center">
       <h2 className="text-4xl font-bold mb-10">My Projects</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -20,9 +20,9 @@ function Hero() {
         <div className="flex justify-center items-center gap-x-20 mx-auto">
         {/* Social Icons Left */}
           <div className="flex flex-col gap-6 text-xl text-black">
-            <a href="#"><FiGithub /></a>
-            <a href="#"><FaLinkedinIn /></a>
-            <a href="#"><SiGeeksforgeeks /></a>
+            <a href="https://github.com/aryan7412"><FiGithub /></a>
+            <a href="https://www.linkedin.com/in/aryan-samal-a88a1827a/"><FaLinkedinIn /></a>
+            <a href="https://www.geeksforgeeks.org/user/aryan7412/"><SiGeeksforgeeks /></a>
             <a href="#"><LiaHackerrank /></a>
           </div>
 

@@ -29,7 +29,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="text-black relative w-[70%] mx-auto">
+    <section id="contact" className="text-black relative w-[70%] mx-auto">
       {/* Pop-up success message */}
       {isSent && (
         <div className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex items-center justify-center z-50">

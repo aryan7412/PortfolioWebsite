@@ -39,7 +39,7 @@ const Experience = () => {
   }, []);
 
   return (
-    <section className="relative py-20 w-[70%] mx-auto">
+    <section id="experience" className="relative py-20 w-[70%] mx-auto">
       {/* Timeline line */}
       <div className="absolute top-32 left-1/2 transform -translate-x-1/2 h-[calc(100%-8rem)] w-1 bg-gray-300 z-0" />
 
