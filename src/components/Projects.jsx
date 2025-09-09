@@ -1,39 +1,66 @@
 import React, { useState } from "react";
 import switchImg from "../assets/SWITCH_Project.png";
-import zygon from "../assets/Zygon_Resized.png";
+import zygon from "../assets/Zygon_Project.png";
 import dorm from "../assets/Dorm_Sync.png";
+import sparkFoundation from "../assets/Sparkradix_Foundation_Project.png"
+import tabletzpharma from "../assets/TabletzPharma_Project.png"
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
     title: "Switch Club",
-    techStack: "React, Node.js, MongoDB",
+    techStack: "React, Tailwind",
     date: "June 2024",
     github: "https://github.com/yourusername/switchclub",
-    live: "https://switchclub.live",
+    live: "https://switchclub.netlify.app",
     image: switchImg,
     description:
       "Swap items easily within the college community to promote sustainability and save money.",
+    hw: ""
   },
   {
     title: "Zygon Website",
-    techStack: "Next.js, Tailwind CSS",
+    techStack: "React, Tailwind CSS, MongoDb, NodeJs",
     date: "March 2024",
     github: "https://github.com/yourusername/zygon",
     live: "https://zygon.live",
     image: zygon,
     description:
       "A sleek portfolio site for a creative agency featuring animations and a responsive layout.",
+    hw: "h-44 w-72"
   },
   {
     title: "Dorm Sync",
     techStack: "MongoDB, Express, React, Node",
     date: "May 2025",
     github: "https://github.com/yourusername/dormsync",
-    live: "https://dormsync.live",
+    live: "https://dorm-sync-as7412.vercel.app",
     image: dorm,
     description:
       "An intuitive app for managing hostel room allocations, live sync status, and bed tracking.",
+    hw: ""
+  },
+  {
+    title: "Sparkradix Foundation",
+    techStack: "Next,Typescript",
+    date: "June 2025",
+    github: "https://github.com/yourusername/dormsync",
+    live: "https://dorm-sync-as7412.vercel.app",
+    image: sparkFoundation,
+    description:
+      "An intuitive app for managing hostel room allocations, live sync status, and bed tracking.",
+    hw: ""
+  },
+  {
+    title: "TabletzPharma",
+    techStack: "React,Tailwind",
+    date: "June 2025",
+    github: "https://github.com/yourusername/dormsync",
+    live: "https://tabletz-pharma.vercel.app",
+    image: tabletzpharma,
+    description:
+      "An intuitive app for managing hostel room allocations, live sync status, and bed tracking.",
+    hw: ""
   },
 ];
 
@@ -54,7 +81,7 @@ export default function ProjectCards() {
           >
             {/* Image */}
             <div className="relative mt-4 mx-4 mb-3">
-              <img src={proj.image} alt={proj.title} className="rounded-xl" />
+              <img src={proj.image} alt={proj.title} className={`rounded-xl ${proj.hw}`}  />
             </div>
             {/* Hover Overlay */}
             {hovered === idx && (

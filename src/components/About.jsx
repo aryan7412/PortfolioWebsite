@@ -37,7 +37,7 @@ function About() {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, phraseIndex]);
   return (
-    <div id="about" className="min-h-screen w-full text-black">
+    <div id="about" className="w-full text-black">
     <div className="flex flex-col lg:flex-row items-center justify-center px-4 sm:px-6 py-8 sm:py-16 gap-8 sm:gap-16 max-w-6xl mx-auto">
       {/* Image */}
       <div className="w-full sm:w-80 md:w-96 h-[25rem] sm:h-[35rem]">

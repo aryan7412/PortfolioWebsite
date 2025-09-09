@@ -24,11 +24,11 @@ const timelineElements = [
   },
   {
     id: 3,
-    title: "SDE Intern",
-    location: "XYZ University",
-    description: "Graduated with a focus in Web Technologies and AI.",
-    date: "August 2025 - Present",
-    tech: ["Python", "HTML", "CSS"],
+    title: "Secretary",
+    location: "Silicon University",
+    description: "",
+    date: "July 2025 - Present",
+    tech: ["Leadership","Mangement", "Team Work"],
     color: "bg-green-500",
   },
 ];

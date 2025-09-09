@@ -47,8 +47,8 @@ const ContactSection = () => {
         <div className="md:w-1/2">
           <h2 className="text-4xl font-bold mb-6">Let's work together</h2>
           <p className="mb-2 hover:text-gray-600">📧 aryan7412ss@gmail.com</p>
-          <p className="mb-2 hover:text-gray-600">📞 +91 12345 67890</p>
-          <p className="hover:text-gray-600">🔗 linkedin.com/in/aryan-samal</p>
+          <p className="mb-2 hover:text-gray-600">📞 +91 94649 54226</p>
+          <a href="https://www.linkedin.com/in/aryan-samal-a88a1827a/" className="hover:text-gray-600">🔗 Linkedin</a>
         </div>
 
         {/* Right Side: Contact Form */}
